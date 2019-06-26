@@ -1,6 +1,6 @@
 {
 	"name": "@volenday/column-password",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"private": false,
 	"license": "MIT",
 	"author": "Jerome Miranda <jerome.m.miranda@gmail.com>",
@@ -9,9 +9,7 @@
 		"prepublishOnly": "webpack --progress -p"
 	},
 	"main": "dist/index.min.js",
-	"dependencies": {
-		"react": "~16.8.6"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@babel/core": "~7.4.5",
 		"@babel/plugin-proposal-class-properties": "~7.4.4",
