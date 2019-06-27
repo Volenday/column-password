@@ -52,6 +52,7 @@ module.exports = {
 		chunkFilename: '[name].[chunkhash].chunk.min.js',
 		libraryTarget: 'commonjs2'
 	},
+	externals: {},
 	plugins: [
 		new webpack.optimize.AggressiveMergingPlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),

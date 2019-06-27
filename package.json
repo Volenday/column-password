@@ -1,14 +1,16 @@
 {
 	"name": "@volenday/column-password",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"private": false,
 	"license": "MIT",
 	"author": "Jerome Miranda <jerome.m.miranda@gmail.com>",
 	"scripts": {
+		"dev": "webpack --watch --progress",
 		"build": "webpack --progress -p",
 		"prepublishOnly": "webpack --progress -p"
 	},
 	"main": "dist/index.min.js",
+	"peerDependencies": {},
 	"dependencies": {},
 	"devDependencies": {
 		"@babel/core": "~7.4.5",
