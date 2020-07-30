@@ -1,8 +1,7 @@
 export default props => {
 	return {
 		...props,
-		style: { display: 'none' },
-		headerStyle: { display: 'none' },
+		isVisible: false,
 		Cell: () => null
 	};
 };
